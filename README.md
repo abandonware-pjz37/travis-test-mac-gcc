@@ -1,4 +1,4 @@
-travis-test-mac-gcc
-===================
+[![Build Status][master]][repo]
 
-Test gcc compiler on mac
+[repo]: https://travis-ci.org/travis-ci-tester/travis-test-mac-gcc
+[master]: https://travis-ci.org/travis-ci-tester/travis-test-mac-gcc.svg?branch=master
