@@ -1,0 +1,6 @@
+language:
+    - objective-c
+
+script:
+    - gcc -stdlib=libstdc++ foo.cpp -lstdc++ -o prog
+    - otool -L prog
