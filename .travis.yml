@@ -4,3 +4,5 @@ language:
 script:
     - gcc -stdlib=libstdc++ foo.cpp -lstdc++ -o prog
     - otool -L prog
+    - g++ foo.cpp -o prog
+    - otool -L prog
